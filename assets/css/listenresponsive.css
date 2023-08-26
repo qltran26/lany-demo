@@ -1,0 +1,47 @@
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    main {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    
+    .listen__box {
+        width: 80%;
+    }
+
+    .listen__box--cd-image {
+        width: 80%;
+    }
+
+    p {
+        width: 60%;
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    main {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    .listen__box {
+        width: 80%;
+    }
+
+    .listen__box--cd-image {
+        width: 80%;
+    }
+}

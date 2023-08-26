@@ -1,0 +1,172 @@
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    main {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    form {
+        width: 100%;
+        margin-top: -60px;
+    }
+    
+    .form__item > input,
+    .form__item > select,
+    .form__reg-button > button {
+        height: 20px;
+        width: 60%;
+        padding: 0 5px;
+    } 
+
+    .form__reg-button {
+        width: 40%;
+        margin-top: 10px;
+    }
+
+    nav {
+        margin: 0 auto;
+        font-size: 12px;
+    }
+    
+    .nav-bar > li > a:hover {
+        font-size: 14px;
+    }
+
+    .section__members--list > img {
+        width: 60%;
+    }
+
+    #flip {
+        height: 20px;
+        line-height: 17px;
+        width: 50px;
+    }
+
+    .sub-section__head,
+    .sub-section__body,
+    .sub-section__footer {
+        width: 100%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .sub-section__head > p {
+        width: 100%;
+    }
+    
+    .sub-section__head > img {
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .sub-section__body > img {
+        margin: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    .sub-section__footer > img {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .social > ul > li {
+        margin: 20px 0;
+    }
+    
+    .social > ul > li > a {
+        font-size: 16px;
+    }
+    
+    .social > ul > li > a:hover {
+        font-size: 22px;
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    main {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    form {
+        margin-top: -150px;
+    }
+
+    .form__item > input,
+    .form__item > select,
+    .form__reg-button > button {
+        height: 20px;
+        width: 60%;
+        padding: 0 5px;
+    } 
+
+    .form__reg-button {
+        width: 20%;
+        margin-top: 10px;
+    }
+   
+
+    nav {
+        font-size: 14px;
+    }
+    
+    .nav-bar > li > a:hover {
+        font-size: 16px;
+    }
+
+    .section__members--list > img {
+        width: 60%;
+    }
+
+    #flip {
+        height: 20px;
+        line-height: 17px;
+        width: 50px;
+    }
+
+    .sub-section__head,
+    .sub-section__body,
+    .sub-section__footer {
+        width: 100%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .sub-section__head > p {
+        width: 100%;
+    }
+    
+    .sub-section__head > img {
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .sub-section__body > img {
+        margin: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    .sub-section__footer > img {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}

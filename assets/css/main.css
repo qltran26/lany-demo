@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #141414;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}  
+
+nav {
+    top: 0;
+    width: 60%;
+    margin: 10px 0px;
+    padding: 5px 0;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 255);
+    background: linear-gradient(to right, #dadada, rgba(218, 218, 218, 0.9));
+    position: fixed;
+    z-index: 1;
+    transition: 0.7s;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-bar > li {
+    font-weight: 600;
+    list-style-type: none;
+}
+
+.nav-bar > li > a {
+    color: rgba(255, 255, 255, 255);
+    mix-blend-mode: difference;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.nav-bar > li > a:hover {
+    font-size: 25px;
+}
+
+.slide {
+    top: 0;
+    width: 100%;
+    position: relative;
+}
+
+.slide__image {
+    width: 100%;
+}
+
+form {
+    text-align: -webkit-center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: -181px;
+}
+
+.form__item {
+    width: 200px;
+    margin: 2px 0;
+}
+
+::placeholder {
+    color: rgb(118, 118, 118);
+}
+
+.form__item > input,
+.form__item > select,
+.form__reg-button > button {
+    width: 100%;
+    padding: 10px 5px;
+    font-weight: 700;
+    line-height: 15px;
+    color: rgb(118, 118, 118);
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 5px;
+} 
+
+.form__reg-button {
+    width: 100px;
+    margin-top: 10px;
+}
+
+article {
+    text-align: -webkit-center;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.section__about {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dadada;
+}
+
+.section__about > img {
+    width: 70%;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.section__members {
+    margin-top: -10px;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: #dadada;
+}
+
+.section__members--list > img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#flip {
+    margin: -35px auto auto auto;
+    height: 30px;
+    width: 15%;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 600;
+    width: 100px;
+    opacity: 0.8;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+#flip:hover {
+    cursor: pointer;
+    color: #000;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 1);
+}
+
+#panel {
+    display: none;
+    background-color: #dadada;
+    padding: 1px 50px;
+}
+
+.sub-section__head,
+.sub-section__body {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sub-section__head > p {
+    width: 50%;
+}
+
+.sub-section__head > img {
+    width: 40%;
+    border-radius: 5px;
+}
+
+.sub-section__body > img {
+    margin-right: 30px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.sub-section__footer {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-section__footer > img {
+    margin-bottom: 30px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+footer {
+    bottom: 0;
+    text-align: -webkit-center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: inherit;
+}
+
+.social > ul {
+    margin: 0 auto;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.social > ul > li {
+    list-style-type: none;
+    margin: 20px 20px;
+}
+
+.social > ul > li > a {
+    color: white;
+    font-size: x-large;
+}
+
+.social > ul > li > a:hover {
+    font-size: 30px;
+}
+
+.footer__nav {
+    width: inherit;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.term > a {
+    color: white;
+    padding: 0 10px;
+}

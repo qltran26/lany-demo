@@ -1,0 +1,69 @@
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    main {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    header {
+        width: 100%;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+        position: fixed;
+        z-index: 1;
+    }
+
+    b {
+        font-size: 150px;
+        color: rgba(255, 255, 255, 255);
+    }
+    
+    .watch__more {
+        background-color: inherit;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+    
+    video {
+        width: 100%;
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    main {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    header {
+        width: 100%;
+        top: -60px;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .watch__more {
+        background-color: inherit;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+}
