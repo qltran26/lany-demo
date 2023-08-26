@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    color: rgba(255, 255, 255, 255);
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    top: -60px;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    z-index: 1;
+}
+
+.header__logo {
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+
+b {
+    font-size: 200px;
+    color: rgba(255, 255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+.tour {
+    margin-top: 150px;
+    width: 80%;
+}
+
+.tour__section {
+    width: 80%;
+    padding: 20px;
+    border: 1px solid rgb(118, 118, 118);
+    color: black;
+    display: flex;
+    background-color: #dadada;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+input {
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(118, 118, 118);
+}
+
+input:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.tour__desc {
+    padding: 20px 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tour__desc > strong {
+    padding-bottom: 10px;
+}
+
+.tour__powered {
+    padding-top: 20px;
+    font-size: 18px;
+    float: right;
+}
