@@ -1,0 +1,271 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    line-height: 1.6rem;
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+}
+
+.header__logo {
+    width: 100%;
+    color: inherit;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 10px;
+    padding-left: 20px;
+}
+
+.header__logo > a {
+    text-decoration: none;
+    color: white;
+}
+
+.header__nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+    line-height: 60px;
+}
+
+.header__nav > li {
+    list-style-type: none;
+}
+
+.header__nav > li > a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+.header__nav > li > a:hover {
+    opacity: 0.5;
+}
+
+.slide > img {
+    width: 100%;
+}
+
+.side-bar {
+    background-color: rgba(255,255,255,0);
+    width: 25%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    transition: 0.2s;
+}
+
+.side-bar__items {
+    right: 25%;
+    height: 0%;
+    width: 4%;
+    line-height: 40px;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+    transition: 0.2s;
+}
+
+#flip {
+    transition: 0.2s;
+}
+
+.side-bar__item {
+    background-color: black;
+    border: 1px solid white;
+}
+
+.side-bar__item:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.side-bar__item > a {
+    color: white;
+    text-decoration: none;
+}
+
+.side-bar__sub { 
+    width: 100%;
+    padding: 20px 0 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.side-bar__sub--image {
+    width: 80%;
+    padding-bottom: 25px;
+}
+
+.side-bar__sub--image > img {
+    width: 100%;
+}
+
+.side-bar__sub--items {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.side-bar__sub--item {
+    width: 100%;
+    margin: 2px;
+    align-self: center;
+    line-height: 50px;
+    font-weight: 700;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.side-bar__sub--item:hover {
+    color: black;
+    background-color: #dadada;
+    border: 1px solid #dadada;
+}
+
+.side-bar__sub--item > a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.side-bar__sub--info {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.side-bar__sub--contact {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.side-bar__sub--contact-link {
+    font-size: x-large;
+}
+
+
+.side-bar__sub--contact-link:hover {
+    opacity: 0.5;
+}
+
+.side-bar__sub--contact-link > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.side-bar__sub--contact-link > a:hover {
+    color: #dadada;
+}
+
+.merch {
+    text-align: -webkit-center;
+}
+
+.merch__items {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.item {
+    height: 70%;
+    padding: 0 20px;
+}
+
+.item:hover {
+    border: 1px solid #dadada;
+}
+
+.item > a > img {
+    width: 70%;
+}
+
+.item__desc {
+    color: black;
+}
+
+footer {
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: -webkit-center;
+}
+
+.footer__item--social {
+    width: 50%;
+    justify-content: center;
+}
+
+.footer__item--social > ul {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__item--social > ul > li {
+    list-style-type: none;
+}
+
+.footer__item--social > ul > li > a {
+    color: white;
+    font-size: x-large;
+}
+
+.footer__item--social > ul > li > a:hover {
+    opacity: 0.5;
+}
+
+
+.footer__nav {
+    width: 100%;
+    background-color: black;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.term > a {
+    color: white;
+    padding: 0 10px;
+}
+
+.term > a:hover {
+    opacity: 0.5;
+}
+
+
