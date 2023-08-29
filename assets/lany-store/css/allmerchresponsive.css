@@ -33,7 +33,7 @@
         height: 0%;
         width: 15%;
         right: 0%;
-        bottom: 30%;
+        bottom: 40%;
     }
     
     .side-bar__sub { 
@@ -152,6 +152,7 @@
     right: 25%;
     height: 0%;
     width: 4%;
+    bottom: 50%;
     line-height: 40px;
     position: fixed;
     text-align: center;
@@ -199,6 +200,7 @@
     justify-content: space-evenly;
     text-align: center;
 }
+
 
 .side-bar__sub--item {
     width: 100%;
